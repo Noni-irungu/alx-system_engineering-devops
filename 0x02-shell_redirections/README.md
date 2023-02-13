@@ -1,4 +1,4 @@
-Task 1:
-# Hello World
-- Displays the content in file
+# Task 0
+## Hello World
+Describes how to see contents of a file.
 
