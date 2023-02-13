@@ -1,5 +1,3 @@
 #!/bin/bash
-"Hello, World" 
-
->
+Hello, World | cat -e
 
