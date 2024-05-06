@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#A script that gets the list of files in the current directory.
+list_file=$(ls)
+
+# Loop through each file
+for file in $list_file; do
+    # Using cut to extract the part of the name after the first dash.
+    # -d '-' specifies the delimiter as '-' (the dash character).
+    # -f 2- specifies that we want to extract from the second field to the end.
+    name_part=$(echo "$file" | cut -d '-' -f 2-)
+    
+    # Print the modified name
+    echo "$name_part"
+done
